@@ -1,0 +1,11 @@
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier", "unused-imports"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "error",
+    "no-debugger": "error",
+    "no-unused-vars": "error",
+    "unused-imports/no-unused-imports": "error"
+  }
+}
